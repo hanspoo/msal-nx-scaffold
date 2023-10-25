@@ -2,7 +2,10 @@
   "name": "@azure-please/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:api": "nx serve api",
+    "start:spa": "nx serve spa"
+  },
   "private": true,
   "dependencies": {
     "@azure/msal-browser": "~2.31.0",
